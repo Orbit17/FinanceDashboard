@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional small global tweaks */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #f3f4f6; /* gray-100 */
+  color: #0f172a;            /* slate-900 */
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
